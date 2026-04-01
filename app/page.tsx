@@ -72,7 +72,7 @@ export default function Portfolio() {
                 {[
                   { id: "intro", label: "Home" },
                   { id: "work", label: "Work Experience" },
-                  { id: "projects", label: "My Projects" },
+                  /* { id: "projects", label: "My Projects" }, */
                   { id: "connect", label: "Let's Connect" },
                 ].map((item, index) => (
                   <div key={item.id} className="flex items-center">
