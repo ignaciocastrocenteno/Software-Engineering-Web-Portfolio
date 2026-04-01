@@ -423,7 +423,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        <section id="projects" ref={(el) => (sectionsRef.current[2] = el)} className="min-h-screen py-20 sm:py-32">
+{/*         <section id="projects" ref={(el) => (sectionsRef.current[2] = el)} className="min-h-screen py-20 sm:py-32">
           <div className="space-y-12 sm:space-y-16">
             <h2 className="text-3xl sm:text-4xl font-light">My Projects</h2>
 
@@ -491,7 +491,7 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="connect" ref={(el) => (sectionsRef.current[3] = el)} className="py-20 sm:py-32">
           <div className="grid lg:grid-cols-2 gap-12 sm:gap-16">
@@ -557,7 +557,7 @@ export default function Portfolio() {
         <footer className="py-12 sm:py-16 border-t border-border">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 sm:gap-8">
             <div className="space-y-2">
-              <div className="text-sm text-muted-foreground">© 2025 Ignacio Castro Centeno. All rights reserved.</div>
+              <div className="text-sm text-muted-foreground">© 2026 Ignacio Castro Centeno. All rights reserved.</div>
             </div>
 
             <div className="flex items-center gap-4">
