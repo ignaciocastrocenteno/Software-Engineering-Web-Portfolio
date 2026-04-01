@@ -11,10 +11,10 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "Ignacio Julián Castro Centeno - SSR Software Engineer",
+  title: "Ignacio Julián Castro Centeno - Software Engineer",
   description:
     "Software Engineer and Computer Science Bachelor from Buenos Aires, Argentina with 5 years of experience.",
-  generator: "v0.app",
+  generator: "NextJS",
 }
 
 export default function RootLayout({
